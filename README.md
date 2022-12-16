@@ -43,7 +43,8 @@ io.on('connection',(socket)=>{
 
 <br>
 <a>index.html dosyasını oluşturuyoruz ve aşağıdaki kodları giriyoruz.</a><br>
-```
+
+````
 <html>
     <head>
         <meta charset="UTF-8">
@@ -70,7 +71,7 @@ io.on('connection',(socket)=>{
         <script src="chatozelmesaj.js" charset="utf-8"></script>
     </body>
 </html>
-```
+````
 
 <br>
 <a>https://cdnjs.com/libraries/socket.io buradaki siteden socket.io js kod scripti alınmıştır.</a><br>
