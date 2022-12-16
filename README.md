@@ -75,7 +75,9 @@ io.on('connection',(socket)=>{
 
 <br>
 <a>https://cdnjs.com/libraries/socket.io buradaki siteden socket.io js kod scripti alınmıştır.</a><br>
-<a>style.css dosyasını açıyoruz ve kodları:</a>
+<a>style.css dosyasını açıyoruz ve kodları:</a><br>
+
+
 ````
 *{margin:0; padding:0; box-sizing: border-box;}
 input:focus,button:focus{outline: 0;}
@@ -143,9 +145,12 @@ button{
     padding: 12px;
 }
 ````
+
+
 <br>
 
 <a>chatozelmesaj.js dosyasını açıyoruz ve kodları: </a><br>
+
 
 ````
 const socket =io.connect('http://localhost:3000')
@@ -176,6 +181,8 @@ socket.on('private message',data=>{
     message.value=''
 })
 ````
+
+
 <br>
 
 
