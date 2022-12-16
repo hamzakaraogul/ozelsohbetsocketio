@@ -44,7 +44,6 @@ io.on('connection',(socket)=>{
 <br>
 <a>index.html dosyasını oluşturuyoruz ve aşağıdaki kodları giriyoruz.</a><br>
 ```
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
