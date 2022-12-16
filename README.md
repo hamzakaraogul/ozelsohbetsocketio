@@ -184,6 +184,17 @@ socket.on('private message',data=>{
 
 
 <br>
+<a>Visual Studio codeda ilk başta resim ile gösterdiğim gibi integrated terminal ile klasörü açtıktan sonra node server.js ile serveri başlatıyoruz</a><br>
+<a>Sonrasında aşağıdaki resimdeki gibi http://localhost:3000 girdiğimizde bize socket.id vermektedir. Açtığınız penceredeki id görmek veya yenilemek için pencereyi yenileyince tekrardan gelecektir. </a>
+<img src="https://user-images.githubusercontent.com/62428397/208115642-69528d24-a372-480c-b8e7-c940a8774a01.png">
+<br>
+<a>Aldığınız socket.id ile mesaj gönderdiğinizde karşıdaki kişiye de kendisinin socket.id değeri sarı ile işaretlenen şekilde gelecektir. Böylelikle özel sohbeti yapmış bulunuyoruz.</a><br>
+<img src="https://user-images.githubusercontent.com/62428397/208116289-195a915a-9df1-4737-8f55-8fc97dffbc64.png">
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/62428397/208117209-2aa0e991-14f2-4ec2-a637-03d01f0e4990.png">
+
 
 
 
