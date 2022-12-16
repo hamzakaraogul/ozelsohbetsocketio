@@ -169,7 +169,7 @@ submitBtn.addEventListener('click',()=>{
         to:who.value,
         from:socket.id
     })
-
+    message.value=''
     
 })
 
@@ -178,7 +178,6 @@ socket.on('private message',data=>{
     output.innerHTML +='<br><p>'
     output.innerText += data.sender+" "+data.message
     output.innerHTML += '</p><br>'
-    message.value=''
 })
 ````
 
