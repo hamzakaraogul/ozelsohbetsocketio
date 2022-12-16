@@ -25,7 +25,7 @@ const socket = require('socket.io');
 
 const app = express()
 const server = app.listen(3000)
-
+app.use(express.static('.'))
 
 
 const io = socket(server)
